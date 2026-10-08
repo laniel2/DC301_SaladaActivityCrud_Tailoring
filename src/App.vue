@@ -25,8 +25,8 @@ watch(
 
 function addOrder(order) {
   orders.value.push({
-    id: Date.now(),
-    ...order
+    ...order,
+    id: Date.now() + Math.random()
   })
 }
 

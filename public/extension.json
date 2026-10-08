@@ -1,0 +1,10 @@
+{
+  "name": "Tailoring Orders",
+  "displayName": "Tailoring Orders",
+  "version": "1.0.0",
+  "description": "Simple tailoring order tracker",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.80.0"
+  }
+}

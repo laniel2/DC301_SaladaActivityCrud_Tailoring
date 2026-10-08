@@ -22,7 +22,7 @@ function saveOrder() {
   if (!customer.value || !clothing.value) return
 
   const order = {
-    id: editingId.value,
+    id: editingId.value ?? null,
     customer: customer.value,
     clothing: clothing.value,
     measurement: measurement.value,
